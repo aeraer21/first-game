@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 // 정적 파일 제공을 위한 미들웨어 설정
 app.use("/node_modules", express.static(path.join(__dirname, 'node_modules')));
